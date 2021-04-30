@@ -27,23 +27,24 @@ body {
     height: 450px;
 }
 
+.span-seccion1_1957 {
+    font-size: 100px;
+}
+
+.subrayadospan-seccion1_1957 {
+}
+
 .johnlennon1957 {
-    padding: 10px;
-    margin: 10px;
+    margin: 20px;
     width: 700px;
     height: 450px;
+    float: right;
+    display: inline-block;
 }
 
 .seccion1-div_2 {
     margin-top: 10px;
     padding: 10px;
+    height: 500px;
     background-color: #151515;
-}
-
-.h1-año_1957 {
-    text-align: center;
-}
-
-.p-año_1957 {
-    text-align: center;
 }
