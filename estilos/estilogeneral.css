@@ -47,18 +47,14 @@ a {
 
 .span-seccion1_1957 {
     font-size: 100px;
+    margin: 10px;
 }
 
-.ul-seccion1_1957 {
-    list-style: none;
-    padding: 0px;
-    margin: 0px;
+.span-seccion1_1957-txt {
+    font-size: 60px;
+    margin-left: 10px;
 }
 
-#li-seccion1_1957 {
-    margin: 0px;
-
-}
 
 .johnlennon1957 {
     margin: 20px;
@@ -72,4 +68,14 @@ a {
     padding: 10px;
     height: 800px;
     background-color: #151515;
+  }
+
+.p-seccion1_1957-johnlennon {
+    font-size: 17px;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+
+.h2-seccion1_1957-johnlennon {
+    margin: 10px;
 }
