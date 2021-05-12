@@ -56,8 +56,8 @@ a {
 }
 
 
-.johnlennon1957 {
-    margin: 20px;
+.johnlennon1957img {
+    margin: 13px;
     width: 700px;
     height: 450px;
     float: right;
@@ -66,16 +66,33 @@ a {
 .seccion1-div_2 {
     margin-top: 10px;
     padding: 10px;
-    height: 800px;
+    height: 1500px;
     background-color: #151515;
   }
 
 .p-seccion1_1957-johnlennon {
     font-size: 17px;
     margin: 10px;
+    margin-top: 20px;
     margin-bottom: 30px;
 }
 
 .h2-seccion1_1957-johnlennon {
     margin: 10px;
+}
+
+
+.datocurioso-seccion1_1957-johnlennon {
+    background-color: #000;
+    margin: 20px;
+    margin-top: 150px;
+}
+
+.h1_datocurioso-seccion1_1957-johnlennon {
+    margin: 30px;
+    font-size: 50px;
+}
+
+.p_datocurioso-seccion1_1957-johnlennon {
+    margin: 30px;
 }
