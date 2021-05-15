@@ -35,15 +35,68 @@ a {
 }
 
 .seccion1-div_1 {
-    padding: 10px;
     background-color: #151515;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
 }
 
 .thebeatlespresentacion {
     padding: 10px;
-    width: 700px;
-    height: 450px;
+    width: 1870px;
+    height: 700px;
+    opacity: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
 }
+
+.seccion1-presentacion-div_1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.h1-presentacion {
+    font-size: 40px;
+}
+
+/*Aqui probare con animaciones para la imagen de presentacion (.thebeatlespresentacion)*/
+.seccion1-div_1 figure {
+    position: relative;
+    overflow: hidden;
+}
+
+.seccion1-div_1 figure:hover > .capa {
+    visibility: visible;
+}
+
+.seccion1-div_1 figure img {
+    transition: all 300ms ease-out;
+}
+
+.seccion1-div_1 figure .capa {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 300ms ease-out;
+    visibility: hidden;
+}
+
+.thebeatlespresentacion:hover {
+    opacity: 60%;
+}
+
+figure {
+    margin: 0px;
+    padding: 0px;
+}
+/*Cierre*/
+
 
 .span-seccion1_1957 {
     font-size: 100px;
@@ -79,20 +132,4 @@ a {
 
 .h2-seccion1_1957-johnlennon {
     margin: 10px;
-}
-
-
-.datocurioso-seccion1_1957-johnlennon {
-    background-color: #000;
-    margin: 20px;
-    margin-top: 150px;
-}
-
-.h1_datocurioso-seccion1_1957-johnlennon {
-    margin: 30px;
-    font-size: 50px;
-}
-
-.p_datocurioso-seccion1_1957-johnlennon {
-    margin: 30px;
 }
