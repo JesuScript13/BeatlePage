@@ -18,7 +18,7 @@ a {
 }
 
 .imagenHeader {
-    width: 231px;
+    width: 200px;
 }
 
 #button {
@@ -38,7 +38,6 @@ a {
     background-color: #151515;
     position: relative;
     display: inline-block;
-    text-align: center;
     width: 100%;
 }
 
@@ -47,55 +46,39 @@ a {
     width: 1870px;
     height: 700px;
     opacity: 70%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     border-radius: 3px;
 }
 
-.seccion1-presentacion-div_1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.h1-presentacion {
-    font-size: 40px;
-}
-
-/*Aqui probare con animaciones para la imagen de presentacion (.thebeatlespresentacion)*/
-.seccion1-div_1 figure {
-    position: relative;
-    overflow: hidden;
-}
-
-.seccion1-div_1 figure:hover > .capa {
-    visibility: visible;
-}
-
-.seccion1-div_1 figure img {
+.paulmccartneypresentacion {
+    width: 460px;
+    height: 700px;
+    margin: 0px;
+    margin-left: 7px;
+    padding: 0px;
+    cursor: pointer;
     transition: all 300ms ease-out;
 }
 
-.seccion1-div_1 figure .capa {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    transition: all 300ms ease-out;
-    visibility: hidden;
-}
-
-.thebeatlespresentacion:hover {
-    opacity: 60%;
-}
-
-figure {
+.johnlennonpresentacion {
+    width: 460px;
+    height: 700px;
     margin: 0px;
     padding: 0px;
 }
-/*Cierre*/
+
+.ringostarrpresentacion {
+    width: 460px;
+    height: 700px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.georgeharrisonpresentacion {
+    width: 480px;
+    height: 700px;
+    padding: 0px;
+}
 
 
 .span-seccion1_1957 {
